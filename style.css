@@ -2,16 +2,90 @@ body {
     font-family: Raleway;
 }
 
+
+header{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    height:75px;
+    padding: 10px;
+
+}
+
+
+
+main{
+
+    margin-top: 95px;
+    
+}
+
+footer{
+    background-color:black;
+    padding: 10px;
+}
+
 h1 {
-    color:blue;
+
     font-family: Montserrat;
     font-weight: 500;
 }
 
 h2 {
     font-family: Raleway;
+
 }
 
+header span {
+    color: white;
+    margin-top: 50px;
+    font-size: 12pt;
+}
+
+#me {
+    font-size: 32px;
+    margin-right: 15px;
+}
+
+footer h3 {
+    color:white;
+}
+
+
 i.fab {
-    font-size: 24pt;
+    font-size: 32pt;
+    color: white;
+    text-align: center;
+
+}
+
+#homeheader {
+    color:white;
+    background-image: url(southmtn.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#homeheader h1 {
+    font-size: 60pt;
+
+}
+
+#social {
+    display: block;
+    text-align:center;
+}
+
+#profile {
+
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
 }
