@@ -73,13 +73,22 @@ i.fab {
 }
 
 #homeheader h1 {
-    font-size: 60pt;
+    font-size: 72pt;
+    
+}
 
+#homeheader h2 {
+    font-size: 36pt;
+    
 }
 
 #social {
     display: block;
     text-align:center;
+}
+
+#social a {
+    margin: 5px;
 }
 
 #profile {
