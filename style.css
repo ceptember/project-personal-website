@@ -98,3 +98,53 @@ i.fab {
     width: 300px;
     object-fit: cover;
 }
+
+#slideshow  {
+    height: 300px;
+    width: 700px;
+    margin: auto;
+    
+}
+
+#leftbox {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-top: 75px;
+    background-color:#cccccc;
+}
+
+#centerbox {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align:center;
+    font-size: 20pt;
+    border: 3px solid #333;
+}
+
+#rightbox {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 75px;
+    background-color: #cccccc;
+    
+}
+
+.slidearrows {
+    font-size: 50pt;
+    margin-top: 85px;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: limegreen
+}
